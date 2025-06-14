@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <title>jQuery Bonanza</title>
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <div class="container">
+        <h5 class="center-align grey-text text-darken-2">jQuery Bonanza</h5>
+
+        <div class="row valign-wrapper nav">
+          <div class="col s1 center-align">
+            <a class="tooltipped icon-btn" id="backBtn"
+              ><i class="material-icons">arrow_back</i></a
+            >
+          </div>
+          <div class="col s1 center-align">
+            <a class="tooltipped icon-btn" id="forwardBtn"
+              ><i class="material-icons">arrow_forward</i></a
+            >
+          </div>
+          <div class="col s1 center-align">
+            <a class="tooltipped icon-btn" id="closeBtn"
+              ><i class="material-icons">close</i></a
+            >
+          </div>
+          <div class="col s1 center-align">
+            <a class="tooltipped icon-btn" id="homeBtn"
+              ><i class="material-icons">home</i></a
+            >
+          </div>
+
+          <div class="col s5">
+            <input type="url" id="urlInput" placeholder="https://example.com" />
+          </div>
+
+          <div class="col s2 center-align">
+            <a class="btn-small blue" id="goBtn"
+              ><i class="material-icons">search</i></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+        <img src="1a.jpg" class="responsive-img toggle-img" data-alt="1b.jpg">
+
+        <img src="2a.jpg" class="responsive-img toggle-img" data-alt="2b.jpg">
+
+        <img src="3a.jpg" class="responsive-img toggle-img" data-alt="3b.jpg"> 
+    </main>
+
+    <footer>
+      <p id="textAppend" class="center grey-text text-darken-2">
+        &copy; All rights reserved
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
